@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 34px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+header{
+    border: solid;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    height: 20%;
+    width: 100%;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.contenedor-texto{
+    width: 100%;
+    height: 70%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    border: solid white;
+    color: white;
+}
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profesion{
+    display: flex;
+    justify-content: center;
+}
+
+.acerca-de{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.acerca-de .contenedor{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.acerca-de .contenedor .foto{
+    width: 5%;
+    height: 10%;
+    border-radius: 55%;
+    overflow: hidden;
+    border: solid;
+    position:absolute;
+    margin-left: 47%;
+    margin-bottom: 11%;
+}
+
+.acerca-de .contenedor .foto img{
+    width: 100%;
+    height: auto;
+}
+
+.acerca-de .contenedor .texto{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    margin-left: 35%;
+
+}
+
+.acerca-de .contenedor .texto h3{
+    color: orange;
+    padding-bottom: 15px;
+}
+
+main{
+    border: solid;
+    width: 100%;
+}
+
+.trabajos{
+    background-color: lightgray;
+
+}
+
+.trabajos .contenedor h3{
+    padding: 50px;
+    text-align: center;
+}
+
+.contenedor-trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trabajo{
+    width: 400px;
+    height: 40px;
+    height: auto;
+    text-align: center;
+}
+
+.trabajos .contenedor .thumb{
+    width:  100%;
+    padding: 20px;
+}
+
+.imagen{
+    width: 100%;
+    height: auto;
+}
+
+.descripcion .nombre{
+    color: blue;
+}
+
+footer{
+    width: 100%;
+    height: 50%;
+}
+
+footer h3{
+    text-align: center;
+    color: blue;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formulario{
+    flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario input{
+    height: 40px;
+    width: 45%;
+    padding-left: 10px;
+}
+
+#nombre{
+    margin-right: 20px;
+}
+
+#textarea{
+    width: 92%;
+    height: 60%;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+#boton{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 10px;
+    width: 190px;
+    background-color: #3895EA;
+    color: white;
+}
